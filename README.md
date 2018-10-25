@@ -1,1 +1,1 @@
-# flatiron
+# flatiron school exercises
