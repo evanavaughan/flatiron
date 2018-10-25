@@ -4,12 +4,11 @@ def say_hello(name):
     # takes in a name and returns the string "Hi my name is " plus the name
     # use whichever form of interpolation is most appropriate
     return "Hi my name is {}".format(name)
-print(say_hello("Bob"))
+#print(say_hello("Bob"))
 
 def replace_given_substring(str_to_replace, str_to_insert, string):
     return string.replace(str_to_replace, str_to_insert)
-
-print(replace_given_substring("name", "Bob", "People call me name"))
+#print(replace_given_substring("name", "Bob", "People call me name"))
 
 def remove_duplicate_period(string):
     return re.sub(r'\.+', r".", string)
